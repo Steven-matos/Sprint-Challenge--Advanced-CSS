@@ -311,12 +311,36 @@ footer {
 }
 .sign-in {
   text-align: center;
-  padding: 10rem 0;
+  padding: 7rem 0;
 }
 .sign-in img {
   border: 1px solid black;
   border-radius: 5rem;
   margin-bottom: 2rem;
+}
+form .btn button {
+  border: 1px solid black;
+  background-color: #22283A;
+  color: #F6F7F8;
+  font-size: 1.8rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 27%;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  width: 10%;
+  font-size: 1.4rem;
+}
+form .btn button:hover {
+  background-color: #F6F7F8;
+  color: #22283A;
+}
+@media (max-width: 500px) {
+  form .btn button {
+    width: 100%;
+    padding: 2.5rem;
+  }
 }
 label p {
   margin-top: 2rem;

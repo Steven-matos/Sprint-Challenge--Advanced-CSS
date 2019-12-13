@@ -128,7 +128,7 @@
 
 .sign-in {
   text-align: center;
-  padding: 10rem 0;
+  padding: 7rem 0;
   
   img {
   border: 1px solid black;
@@ -137,6 +137,21 @@
 }
 }
 
+form {
+  .btn {
+    button{
+    .custom-button(@btn-bg-color, @porcelain);
+      margin-top: 1.5rem;
+      width: 10%;
+      font-size: 1.4rem;
+
+    @media @phone {
+      width: 100%;
+      padding: 2.5rem;
+    }
+  }
+}
+}
 
   label{
 
