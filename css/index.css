@@ -309,3 +309,16 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.sign-in {
+  text-align: center;
+  padding: 10rem 0;
+}
+.sign-in img {
+  border: 1px solid black;
+  border-radius: 5rem;
+  margin-bottom: 2rem;
+}
+label p {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
